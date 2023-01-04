@@ -1,0 +1,58 @@
+*{margin: 0px;font-family:  Copperplate;}
+
+/*------------------------------------------------INDEX PAGE----------------------------------------------*/
+
+header {background-image: url('../images/top.jpg');background-repeat: no-repeat;background-position: center;height: 110px;position: relative;width: 95%;margin: auto;}
+
+.overlay {position: absolute;top: 0px;left: 0px;right: 0px;bottom: 0px; height: 120px;background-color: rgba(114, 170, 114, 0.3);}
+
+nav {padding: 45px 60px 0 50px;}
+
+#home {padding: 5px;color: white;background-color: rgb(58, 54, 54);cursor: pointer;text-decoration: none;font-family: serif;letter-spacing: 0.8px;border-radius: 3px;position: absolute;top:40px;right: 150px;}
+ 
+.cart {padding: 5px;background-color: rgb(64, 104, 224);color: #fff;cursor: pointer;text-decoration: none;letter-spacing: 0.8px;border-radius: 3px;position: absolute;top:40px;right: 50px;}
+
+#container {width: 80%; display: flex;justify-content: center;flex-wrap: wrap;margin: 50px auto;}
+
+.container_in {position: relative;overflow: hidden;width: 30%;}
+
+p {width:250px; height:285px;cursor: progress;}
+
+.add-cart {position:absolute;width: 45%;transition: all 0.3s;background-color: rgb(201, 78, 12);cursor: pointer;text-align: center;border-radius:2px;bottom: -30px;}
+
+.container_in:hover .add-cart {padding: 10px;bottom: 1px;color: rgb(248, 248, 248);font-weight: bold;font-family: serif;}
+
+.info {width:50%;margin:auto;line-height: 25px;cursor: alias;}
+
+ /*------------------------------------------------CART PAGE----------------------------------------------*/
+
+.container-products {width: 50%;justify-content: space-around;margin: 50px auto;}
+
+.product-header {width: 100%;display: flex;justify-content: flex-start;border-bottom: 4px solid lightgray;margin: 0 auto;}
+
+.product-id {width: 15%;font-size: 16px;}
+
+.product-name {width: 30%;font-size: 16px;}
+
+.product-pic {width: 30%;font-size: 16px;}
+
+.product-price {width: 10%;font-size: 16px;}
+
+#products {width: 100%;}
+
+.img_box {width: 100%;display: flex;flex-wrap: wrap;}
+
+.box_id {position: relative;top:35px;width: 5%;text-align: center; height:20px;}
+.box_name {position: relative;top:35px;width: 33%;text-align: center; height:20px;font-weight: bold;}
+.box_pic { display: inline;position: relative;margin-left: 40px;}
+.box_price {position: relative;top:35px;margin-left: 90px;width: 10%;text-align: center; height:20px;font-weight: bold;font-size: large;}
+
+.box_cancel {position: relative;top:35px;margin-left: 60px;text-align: center; height:20px;color: rgb(249, 98, 98);}
+.box_cancel:hover {background-color:  rgb(249, 98, 98);color: whitesmoke; border-radius: 5px;height: 25px;cursor: pointer;}
+
+.box_line {height:1px;width:100%;background:rgba(200, 198, 198,0.7);}
+
+.total {font-family: sans-serif; font-weight: bold;font-size: 17px; margin: 2%;padding-left: 46%;}
+
+#out {text-align: center; font-weight: bold;font-size: 120%;font-family: inherit;background-color: rgba(53, 153, 93, 0.9);color: rgba(246, 251, 255,0.8); width: 13%;margin: 10% auto;padding: 2.5%;border-radius: 25% 2%;cursor: pointer;}
+#out:hover {background-color: green;color: rgba(255, 255, 255,0.8);}
